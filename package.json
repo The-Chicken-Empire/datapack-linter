@@ -2,11 +2,11 @@
   "name": "datapack-linter",
   "version": "1.3.12",
   "description": "Processing to lint datapack with GitHub Action",
-  "author": "ChenCMD",
+  "author": "The-Chicken-Empire",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChenCMD/datapack-linter"
+    "url": "https://github.com/The-Chicken-Empire/datapack-linter"
   },
   "scripts": {
     "build": "webpack --mode development",

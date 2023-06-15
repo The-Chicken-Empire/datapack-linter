@@ -33,7 +33,7 @@ This GitHubAction will perform a syntax check of the files that have been modifi
              fetch-depth: 0
 
          - name: lint
-           uses: ChenCMD/datapack-linter@v1
+           uses: The-Chicken-Empire/datapack-linter@main
    ```
 
 ## 校閲ルールについて / Lint Rules
@@ -60,7 +60,7 @@ This file is generated when you change the workspace settings in VSCode.
 note: outputDefine and ignoreLintPathPattern can contain multiple character strings. Please refer to the sample below for the method.
 ```yaml
          - name: lint
-           uses: ChenCMD/datapack-linter@v1
+           uses: The-Chicken-Empire/datapack-linter@main
            with:
              ignoreLintPathPattern: |
                ignore:**
