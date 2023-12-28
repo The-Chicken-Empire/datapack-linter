@@ -1,7 +1,7 @@
 # Datapack Linter
-[![stars](https://img.shields.io/github/stars/ChenCMD/datapack-linter?logo=github)](https://github.com/ChenCMD/datapack-linter/stargazers)
-[![activity](https://img.shields.io/github/commit-activity/m/ChenCMD/datapack-linter?label=commit&logo=github)](https://github.com/ChenCMD/datapack-linter/commits/main)
-[![workflow](https://img.shields.io/github/actions/workflow/status/ChenCMD/datapack-linter/lint-datapack-dev.yml?branch=main&label=linter)](https://github.com/ChenCMD/datapack-linter/actions?query=workflow%3Atest-run-and-deploy)
+[![stars](https://img.shields.io/github/stars/The-Chicken-Empire/datapack-linter?logo=github)](https://github.com/The-Chicken-Empire/datapack-linter/stargazers)
+[![activity](https://img.shields.io/github/commit-activity/m/The-Chicken-Empire/datapack-linter?label=commit&logo=github)](https://github.com/The-Chicken-Empire/datapack-linter/commits/main)
+[![workflow](https://img.shields.io/github/actions/workflow/status/The-Chicken-Empire/datapack-linter/lint-datapack-dev.yml?branch=main&label=linter)](https://github.com/The-Chicken-Empire/datapack-linter/actions?query=workflow%3Atest-run-and-deploy)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 
 この GitHub Action は変更が行われた datapack ドキュメントの静的解析を行います。
@@ -38,7 +38,7 @@ This GitHub Action performs a static analysis of the datapack document in which 
              fetch-depth: 0
 
          - name: lint
-           uses: ChenCMD/datapack-linter@v2
+           uses: The-Chicken-Empire/datapack-linter@main
    ```
 
 
@@ -67,7 +67,7 @@ It is also possible to load an arbitrary config file by specifying `configPath` 
 note: `ignoreLintPathPattern` can contain multiple character strings. Please refer to the sample below for the method.
 ```yaml
          - name: lint
-           uses: ChenCMD/datapack-linter@v2
+           uses: The-Chicken-Empire/datapack-linter@main
            with:
              ignoreLintPathPattern: |
                ignore:**
